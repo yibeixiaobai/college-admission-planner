@@ -30,12 +30,18 @@
 
 支持全国各省份，自动识别新高考/老高考模式。
 
-## 赞赏
+## 赞赏与联系
 
-如果这个项目对你有帮助，请赞助一杯咖啡 ☕
-
-![赞赏](赞赏.png)
-
-## 商务联系
-
-![商务联系](商务联系.png)
+<table>
+  <tr>
+    <td align="center">
+      <b>赞赏</b><br>
+      <img src="赞赏.png" width="150"><br>
+      <sub>赞助一杯咖啡 ☕</sub>
+    </td>
+    <td align="center">
+      <b>商务联系</b><br>
+      <img src="商务联系.png" width="150">
+    </td>
+  </tr>
+</table>
