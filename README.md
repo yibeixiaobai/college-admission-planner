@@ -24,24 +24,38 @@
 └── README.md                     # 本文件
 ```
 
+## 安装
+
+### 方式一：口令安装（推荐）
+
+对 AI 助手说：请先检查是否已安装 SkillHub 商店，若未安装，请根据 https://skillhub.cn/install/skillhub.md 安装SkillHub商店，但是只安装CLI，然后安装toutiao-article-publish技能。若已安装，则直接安装toutiao-article-publish技能。
+
+AI 会自动执行以下流程：
+
+1. 检查 SkillHub CLI 是否已安装
+2. 若未安装 → 先安装 SkillHub CLI（仅 CLI）
+3. 安装 collegeplanner 技能
+
+### 方式二：手动安装
+
+```bash
+# 1. 安装 SkillHub CLI（仅 CLI）
+curl -fsSL https://skillhub-1388575217.cos.ap-guangzhou.myqcloud.com/install/install.sh | bash -s -- --cli-only
+
+# 2. 安装技能
+skillhub install collegeplanner --dir ~/.codex/skills/
+```
+
+### 方式三：GitHub 安装
+
+```bash
+python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
+  --repo yibeixiaobai/college-admission-planner
+```
+
 ## 使用方式
 
 当用户提及"高考志愿""志愿填报""志愿规划""选专业"等关键词时，技能自动触发。
 
 支持全国各省份，自动识别新高考/老高考模式。
 
-## 赞赏与联系
-
-<table>
-  <tr>
-    <td align="center">
-      <b>赞赏</b><br>
-      <img src="赞赏.png" width="150"><br>
-      <sub>赞助一杯咖啡 ☕</sub>
-    </td>
-    <td align="center">
-      <b>商务联系</b><br>
-      <img src="商务联系.png" width="150">
-    </td>
-  </tr>
-</table>
