@@ -21,6 +21,8 @@
 ├── references/
 │   ├── matching-strategy.md      # 院校专业匹配策略参考
 │   └── special-programs.md       # 特殊招生通道参考
+├── zanshang.png                   # 赞赏二维码
+├── shangwu.png                    # 商务联系二维码
 └── README.md                     # 本文件
 ```
 
@@ -58,4 +60,20 @@ python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github
 当用户提及"高考志愿""志愿填报""志愿规划""选专业"等关键词时，技能自动触发。
 
 支持全国各省份，自动识别新高考/老高考模式。
+
+## 赞赏与联系
+
+<table>
+  <tr>
+    <td align="center">
+      <b>赞赏</b><br>
+      <img src="zanshang.png" width="120"><br>
+      <sub>赞助一杯咖啡 ☕</sub>
+    </td>
+    <td align="center">
+      <b>商务联系</b><br>
+      <img src="shangwu.png" width="120">
+    </td>
+  </tr>
+</table>
 
