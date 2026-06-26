@@ -1,0 +1,18 @@
+# Mimocode 平台文件
+.mimocode/
+.mimocode-project-id
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器/IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 环境变量文件
+.env
+.env.*
